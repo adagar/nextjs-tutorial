@@ -4,7 +4,7 @@ import styles from '../../styles/Projects.module.css';
 
 export const getStaticProps = async () => {
   // this function will run at build time
-  const res = await fetch('http://jsonplaceholder.typicode.com/users');
+  const res = await fetch('https://a-nick-garza.com/blog/wp-json/wp/v2/artworks');
   const data = await res.json();
 
   return {
@@ -17,7 +17,7 @@ const Projects = ({ projects }) => {
     return (
       <Link key={project.id} href={`/projects/${project.id}`}>
         <a href="" className={styles.single}>
-          <h3>{project.name}</h3>
+          <h3 dangerouslySetInnerHTML={{__html: project.title.rendered}}></h3>
         </a>
       </Link>
     )
@@ -27,6 +27,7 @@ const Projects = ({ projects }) => {
     <Head>
       <title>Project List | Projects</title>
       <meta keywords="art adagar next projects" />
+      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"></meta>
     </Head>
     <div>
       <h1>All Projects</h1>

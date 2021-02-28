@@ -1,0 +1,96 @@
+[
+  {
+    "id": 13,
+    "date": "2021-02-28T15:26:09",
+    "date_gmt": "2021-02-28T15:26:09",
+    "guid": {
+      "rendered": "https://a-nick-garza.com/blog/?post_type=artwork&#038;p=13"
+    },
+    "modified": "2021-02-28T15:26:09",
+    "modified_gmt": "2021-02-28T15:26:09",
+    "slug": "floral-horror",
+    "status": "publish",
+    "type": "artwork",
+    "link": "https://a-nick-garza.com/blog/artwork/floral-horror/",
+    "title": { "rendered": "Floral Horror" },
+    "content": {
+      "rendered": "\n<p>Art-tober day #10, floral horror. A self-portrait with vines.</p>\n",
+      "protected": false
+    },
+    "featured_media": 14,
+    "template": "",
+    "_links": {
+      "self": [
+        { "href": "https://a-nick-garza.com/blog/wp-json/wp/v2/artworks/13" }
+      ],
+      "collection": [
+        { "href": "https://a-nick-garza.com/blog/wp-json/wp/v2/artworks" }
+      ],
+      "about": [
+        { "href": "https://a-nick-garza.com/blog/wp-json/wp/v2/types/artwork" }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://a-nick-garza.com/blog/wp-json/wp/v2/media/14"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://a-nick-garza.com/blog/wp-json/wp/v2/media?parent=13"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "date": "2021-02-28T15:21:08",
+    "date_gmt": "2021-02-28T15:21:08",
+    "guid": {
+      "rendered": "https://a-nick-garza.com/blog/?post_type=artwork&#038;p=10"
+    },
+    "modified": "2021-02-28T15:21:08",
+    "modified_gmt": "2021-02-28T15:21:08",
+    "slug": "theres-something-wrong-with-the-birds",
+    "status": "publish",
+    "type": "artwork",
+    "link": "https://a-nick-garza.com/blog/artwork/theres-something-wrong-with-the-birds/",
+    "title": { "rendered": "There&#8217;s Something Wrong with the Birds" },
+    "content": {
+      "rendered": "\n<p>Pen &amp; Ink drawing done for Art-tober</p>\n",
+      "protected": false
+    },
+    "featured_media": 12,
+    "template": "",
+    "_links": {
+      "self": [
+        { "href": "https://a-nick-garza.com/blog/wp-json/wp/v2/artworks/10" }
+      ],
+      "collection": [
+        { "href": "https://a-nick-garza.com/blog/wp-json/wp/v2/artworks" }
+      ],
+      "about": [
+        { "href": "https://a-nick-garza.com/blog/wp-json/wp/v2/types/artwork" }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://a-nick-garza.com/blog/wp-json/wp/v2/media/12"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://a-nick-garza.com/blog/wp-json/wp/v2/media?parent=10"
+        }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]
+
+{"id":12,"date":"2021-02-28T15:19:21","date_gmt":"2021-02-28T15:19:21","guid":{"rendered":"https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1.jpg"},"modified":"2021-02-28T15:20:33","modified_gmt":"2021-02-28T15:20:33","slug":"img_20201007_2020242-2","status":"inherit","type":"attachment","link":"https:\/\/a-nick-garza.com\/blog\/artwork\/theres-something-wrong-with-the-birds\/img_20201007_2020242-2\/","title":{"rendered":"There&#8217;s Something Wrong with the Birds"},"author":1,"comment_status":"open","ping_status":"closed","template":"","meta":[],"description":{"rendered":"<p class=\"attachment\"><a href='https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-scaled.jpg'><img width=\"300\" height=\"189\" src=\"https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-300x189.jpg\" class=\"attachment-medium size-medium\" alt=\"Pen and Ink drawing of a skeletal dinosaur on a telephone wire\" loading=\"lazy\" srcset=\"https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-300x189.jpg 300w, https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-1024x647.jpg 1024w, https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-768x485.jpg 768w, https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-1536x970.jpg 1536w, https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-2048x1293.jpg 2048w, https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-1568x990.jpg 1568w\" sizes=\"(max-width: 300px) 100vw, 300px\" style=\"width:100%;height:63.13%;max-width:2560px;\" \/><\/a><\/p>\n<p>Pen &#038; Ink drawing done for Art-tober<\/p>\n"},"caption":{"rendered":"<p>Pen &#038; Ink drawing done for Art-tober<\/p>\n"},"alt_text":"Pen and Ink drawing of a skeletal dinosaur on a telephone wire","media_type":"image","mime_type":"image\/jpeg","media_details":{"width":2560,"height":1616,"file":"2021\/02\/IMG_20201007_2020242-1-scaled.jpg","sizes":{"medium":{"file":"IMG_20201007_2020242-1-300x189.jpg","width":300,"height":189,"mime_type":"image\/jpeg","source_url":"https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-300x189.jpg"},"large":{"file":"IMG_20201007_2020242-1-1024x647.jpg","width":1024,"height":647,"mime_type":"image\/jpeg","source_url":"https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-1024x647.jpg"},"thumbnail":{"file":"IMG_20201007_2020242-1-150x150.jpg","width":150,"height":150,"mime_type":"image\/jpeg","source_url":"https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-150x150.jpg"},"medium_large":{"file":"IMG_20201007_2020242-1-768x485.jpg","width":768,"height":485,"mime_type":"image\/jpeg","source_url":"https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-768x485.jpg"},"1536x1536":{"file":"IMG_20201007_2020242-1-1536x970.jpg","width":1536,"height":970,"mime_type":"image\/jpeg","source_url":"https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-1536x970.jpg"},"2048x2048":{"file":"IMG_20201007_2020242-1-2048x1293.jpg","width":2048,"height":1293,"mime_type":"image\/jpeg","source_url":"https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-2048x1293.jpg"},"post-thumbnail":{"file":"IMG_20201007_2020242-1-1568x990.jpg","width":1568,"height":990,"mime_type":"image\/jpeg","source_url":"https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-1568x990.jpg"},"full":{"file":"IMG_20201007_2020242-1-scaled.jpg","width":2560,"height":1616,"mime_type":"image\/jpeg","source_url":"https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-scaled.jpg"}},"image_meta":{"aperture":"2","credit":"","camera":"Pixel XL","caption":"","created_timestamp":"1602102024","copyright":"","focal_length":"4.67","iso":"536","shutter_speed":"0.025005","title":"","orientation":"1","keywords":[]},"original_image":"IMG_20201007_2020242-1.jpg"},"post":10,"source_url":"https:\/\/a-nick-garza.com\/blog\/wp-content\/uploads\/2021\/02\/IMG_20201007_2020242-1-scaled.jpg","_links":{"self":[{"href":"https:\/\/a-nick-garza.com\/blog\/wp-json\/wp\/v2\/media\/12"}],"collection":[{"href":"https:\/\/a-nick-garza.com\/blog\/wp-json\/wp\/v2\/media"}],"about":[{"href":"https:\/\/a-nick-garza.com\/blog\/wp-json\/wp\/v2\/types\/attachment"}],"author":[{"embeddable":true,"href":"https:\/\/a-nick-garza.com\/blog\/wp-json\/wp\/v2\/users\/1"}],"replies":[{"embeddable":true,"href":"https:\/\/a-nick-garza.com\/blog\/wp-json\/wp\/v2\/comments?post=12"}]}}

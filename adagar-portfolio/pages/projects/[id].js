@@ -1,11 +1,13 @@
+import Image from 'next/image';
+
 export const getStaticPaths = async () => {
   // Seems not good to have this duped, how to address?
-  const res = await fetch('http://jsonplaceholder.typicode.com/users');
+  const res = await fetch('https://a-nick-garza.com/blog/wp-json/wp/v2/artworks');
   const data = await res.json();
   const paths = data.map(project => {
     return {
       params: { 
-        id: project.id.toString()
+        id: project.id.toString(),
       }}
   })
   return {
@@ -19,21 +21,26 @@ export const getStaticPaths = async () => {
   const id = context.params.id;
 
 
-  const res = await fetch(`http://jsonplaceholder.typicode.com/users/${id}`);
+  const res = await fetch(`https://a-nick-garza.com/blog/wp-json/wp/v2/artworks/${id}`);
   const data = await res.json();
 
+  const imgUrl = data._links['wp:featuredmedia'][0].href;
+  console.log("#### IMAGE URL:", imgUrl);
+  const imgRes = await fetch(imgUrl);
+  const imgData = await imgRes.json();
+
   return {
-    props: { project: data }
+    props: { project: data, imgData: imgData }
   }
  }
 
-const Details = ({project}) => {
+const Details = ({project, imgData}) => {
+  // const imgData = fetchImageData(project.id);
   return (
     <div>
-      <h1>{project.name}</h1>
-      <p>{project.username}</p>
-      <p>{project.website}</p>
-      <p>{project.address.city}</p>
+      <h1 dangerouslySetInnerHTML={{__html:project.title.rendered}}></h1>
+      <p dangerouslySetInnerHTML={{__html:project.content.rendered}}></p>
+      <Image width={imgData.media_details.width} height={imgData.media_details.height} src={imgData.source_url} />
     </div>
   )
 }
