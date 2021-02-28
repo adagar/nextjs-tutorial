@@ -25,7 +25,6 @@ export const getStaticPaths = async () => {
   const data = await res.json();
 
   const imgUrl = data._links['wp:featuredmedia'][0].href;
-  console.log("#### IMAGE URL:", imgUrl);
   const imgRes = await fetch(imgUrl);
   const imgData = await imgRes.json();
 

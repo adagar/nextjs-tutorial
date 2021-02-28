@@ -1,11 +1,35 @@
 .single {
   padding: 2px 16px;
   background: #fff;
-  display: block;
+  /* display: block; */
+  /* display:flex; */
   margin: 20px 10px;
   border-left: 8px solid #fff;
+  width: 400px;
+  height: 400px;
+
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  /* position: relative; */
+}
+
+.single > *{
+  /* margin: 0 auto !important; */
+  text-align: center;
+  display: block;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
 }
 
 .single:hover {
-  border-left: 8px solid #4979ff;
+  /* border-left: 8px solid #4979ff; */
+  transform: scale(1.2);
+}
+
+.image {
+  margin: 0 auto;
 }
