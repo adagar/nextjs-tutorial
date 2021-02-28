@@ -27,7 +27,7 @@
 
 .single:hover {
   /* border-left: 8px solid #4979ff; */
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 
 .image {
